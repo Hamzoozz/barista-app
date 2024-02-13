@@ -10,7 +10,7 @@ Time spent: **3.5** hours spent in total
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented required features:
 ![barista](https://github.com/Hamzoozz/barista-app/assets/103555231/bd1b4480-950e-47cb-bc80-83d3f8762489)
 
 
