@@ -29,7 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #242424;
+  background-color: #D2B48C; 
 }
 
 h1 {
@@ -45,7 +45,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #645019;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -61,7 +61,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #38424a;
     background-color: #ffffff;
   }
 

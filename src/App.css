@@ -15,16 +15,23 @@
 
 .answer-space {
   margin-bottom: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
 .radio-buttons {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: black; 
+  font-family: sans-serif; 
+  font-size: 1em;
 }
 
 .radio-buttons li {
   margin-bottom: 0.5rem;
+  background-color: #f0f0f0
 }
 
 .button {
@@ -59,13 +66,24 @@
 
 .mini-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  margin: auto;
-  position: relative;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin: 50px;
+  border: 2px solid #000000; /* Border color (light brown) */
+  border-radius: 8px; /* Border radius for rounded corners */
+  padding: 20px; /* Optional padding for a cleaner look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #362610;
 }
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
 
 /* Give wrong and correct id selectors new background colors */
 #wrong {
